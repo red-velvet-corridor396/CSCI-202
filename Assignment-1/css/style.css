@@ -1,0 +1,58 @@
+body {
+    background-image: url(../images/b2.jpg);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: arial;
+}
+
+#wrapper {
+    width: 50%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 3em;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#subtitle {
+    margin-top: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/background.jpg);
+    background-position: 50% 30%;
+    height: 15vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-size: 2em;
+}
+
+nav a img {
+    max-height: 2.3em;
+    max-width: auto;
+}
+nav a img:hover {
+    translate: 0px -10px;
+}
+
+#devourment {
+    display: inline;
+    max-height: 3em;
+    max-width: auto;
+    position: relative;
+    top: 1.3em;
+}
