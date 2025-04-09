@@ -14,6 +14,7 @@ body {
     color: white;
     padding: 3em;
     margin-top: 10px;
+    max-width: 1093px;
 }
 
 h1 {
@@ -45,6 +46,7 @@ nav a img {
     max-height: 2.3em;
     max-width: auto;
 }
+
 nav a img:hover {
     translate: 0px -10px;
 }
