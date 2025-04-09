@@ -13,7 +13,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 3em;
-    margin-top: 10px;
+    margin-top: 40px;
     max-width: 1000px;
 }
 
@@ -27,24 +27,35 @@ h1 {
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-image: url(../images/background.jpg);
     background-position: 50% 30%;
-    height: 15vh;
+    height: 30vh;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: larger;
+nav ul {
+    /* Removes list indent on left side */
+    padding-left: 0px;
+    /* Organizes links into grid layout */
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    /* Centers img links within their grid items */
+    place-items: center;
+}
+
+nav ul li a {
+    /* Affects size of image links */
     font-size: 2em;
 }
 
-nav a img {
+nav ul li {
+    /* Removes bullet points for nav list */
+    list-style-type: none;
+}
+
+nav ul li a img {
+    /* Also affects size of image links */
     max-height: 2.3em;
-    max-width: auto;
 }
 
 nav a img:hover {
@@ -52,9 +63,9 @@ nav a img:hover {
 }
 
 #devourment {
-    display: inline;
+    /* Prevents image from being massive */
     max-height: 3em;
-    max-width: auto;
+    /* Vertically aligns logo with other text */
     position: relative;
     top: 1.3em;
 }
