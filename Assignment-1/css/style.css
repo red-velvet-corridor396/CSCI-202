@@ -74,5 +74,27 @@ nav a img:hover {
 }
 
 #greasing {
-    height: 6em;
+    margin-top: 1em;
+    height: 2.5em;
+}
+
+p {
+    margin: 0.5em 0 0.5em 0;
+}
+
+.img {
+    width: 35%;
+    margin: 0.5em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    float: none;
 }
