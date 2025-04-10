@@ -43,6 +43,8 @@ nav ul {
     grid-template-rows: repeat(3, 33%);
     /* Centers img links within their grid items */
     place-items: center;
+    /* The logo hover effect moves them up by 10px, so this padding at the top ensures that the logos don't go outside of the nav box when hovered over */
+    padding-top: 10px;
 }
 
 nav ul li a {
@@ -97,4 +99,34 @@ p {
 
 .clear {
     float: none;
+}
+
+/* https://techstacker.com/how-to-responsive-youtube-videos/ */
+
+/* Div element containing YouTube video */
+.video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.video::after {
+    display: block;
+    content: "";
+    /* The following value is the aspect ratio of the video; height/width = % */
+    padding-top: 56.25%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#year {
+    margin-top: 1em;
+    height: 2.5em;
+    display: block;
 }
