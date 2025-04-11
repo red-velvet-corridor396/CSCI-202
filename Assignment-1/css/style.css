@@ -130,3 +130,22 @@ p {
     height: 2.5em;
     display: block;
 }
+
+#uni {
+    margin-top: 1em;
+    height: 2.5em;
+    display: block;
+}
+
+.big_img {
+    width: 100%;
+}
+
+#edm {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.edm {
+    width: 50%;
+}
