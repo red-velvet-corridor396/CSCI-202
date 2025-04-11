@@ -143,9 +143,11 @@ p {
 
 #edm {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    column-gap: 10px;
 }
 
 .edm {
-    width: 50%;
+    width: 100%;
 }
