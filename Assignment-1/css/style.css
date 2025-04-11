@@ -143,6 +143,12 @@ p {
     display: block;
 }
 
+.heading {
+    margin-top: 1em;
+    height: 2.5em;
+    display: block;
+}
+
 .big_img {
     width: 100%;
 }
@@ -160,16 +166,13 @@ p {
 
 #button {
     position: fixed;
-    bottom: 20px;
+    bottom: 1px;
     right: 150px;
-    background-color: red;
     z-index: 1;
-    border-radius: 10px;
-    /* padding: 10px; */
 }
 
 #button a {
-    font-size: 2.5em;
+    font-size: 4em;
 }
 
 #button:hover {
@@ -182,4 +185,12 @@ p {
 
 #topimg {
     height: 1em;
+}
+
+.textlink {
+    color: red;
+}
+
+.textlink:hover {
+    filter: opacity(0.8);
 }
