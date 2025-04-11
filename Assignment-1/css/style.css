@@ -201,3 +201,17 @@ p {
     right: 50px;
     z-index: 1;
 }
+
+#showflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.show {
+    height: 200px;
+}
+
+.show:hover {
+    translate: 0px -10px;
+}
