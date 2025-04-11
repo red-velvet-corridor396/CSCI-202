@@ -194,3 +194,10 @@ p {
 .textlink:hover {
     filter: opacity(0.8);
 }
+
+#kenny {
+    position: fixed;
+    bottom: 1px;
+    right: 50px;
+    z-index: 1;
+}
